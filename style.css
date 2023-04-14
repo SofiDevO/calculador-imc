@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    padding: auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 5px;
+    margin-bottom: 0;    
+    background-color: black;
+}
+
+
+span{
+    color: red;
+}
+
+#output{
+    color: white;
+}
+.grapper{
+    height: 491px;
+    width: 555px;
+    padding: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(12, 12, 12);
+    background-image: linear-gradient( 26deg, rgba(46, 226, 196, 0.582), rgba(0, 0, 0, 0.801) );
+    border: solid blue;
+    border-radius: 30px;
+    box-shadow: rgba(25, 228, 235, 0.911)0px 20px 30px -10px ; 
+}
+    
+
+
+p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: -3px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+
+input{
+    display: flex;
+    border: solid black;
+    align-items: center;
+    padding: 13px;
+    font-size: 16px;  
+    border-radius: 7px; 
+}
+
+
+#datos{
+    padding: 35px;
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    justify-content: center;
+}
+
+
+#btn{
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 8px 55px;
+    font-weight: 500;
+    border: solid black;
+}
+
+#btn:hover{
+    color: white;
+    background-color:  black;
+    border:solid white;
+    box-shadow: rgba(25, 228, 235, 0.911)0px 20px 30px -9px ;
+}

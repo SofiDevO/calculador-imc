@@ -1,81 +1,52 @@
 *{
     box-sizing: border-box;
-    padding: auto;
+    padding: auto; 
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
 
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 5px;
-    margin-bottom: 0;    
     background-color: black;
+    max-width: 1700px; 
 }
 
-
-span{
-    color: red;
-}
-
-#output{
-    color: white;
-}
-.grapper{
-    height: 491px;
-    width: 555px;
-    padding: 15px;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(12, 12, 12);
-    background-image: linear-gradient( 26deg, rgba(46, 226, 196, 0.582), rgba(0, 0, 0, 0.801) );
-    border: solid blue;
-    border-radius: 30px;
-    box-shadow: rgba(25, 228, 235, 0.911)0px 20px 30px -10px ; 
-}
-    
 
 
 p{
+    color: aliceblue;
+    font-size: 2.5em;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: -3px;
-    margin-top: 10px;
-    font-size: 20px;
-    color: white;
+    font-weight: bold;
 }
 
+#datos .grapper {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    
+}
 
 input{
-    display: flex;
-    border: solid black;
-    align-items: center;
-    padding: 13px;
-    font-size: 16px;  
-    border-radius: 7px; 
+    font-size: 2em;
 }
-
-
-#datos{
-    padding: 35px;
-    display: flex;
-    /* flex-direction: column; */
-    /* align-items: center; */
-    justify-content: center;
-}
-
 
 #btn{
+    font-size: 4em;
+    display: flex;
+    padding: 5px 10px;
+    flex-direction: column;
+    border: solid 3px rgb(0, 0, 0);
+    font-weight: bold;
     border-radius: 30px;
-    font-size: 20px;
-    padding: 8px 55px;
-    font-weight: 500;
-    border: solid black;
+    box-shadow: rgba(25, 228, 235, 0.911)0px 20px 30px -9px ;
+    cursor: pointer;
 }
+
 
 #btn:hover{
     color: white;
@@ -83,3 +54,50 @@ input{
     border:solid white;
     box-shadow: rgba(25, 228, 235, 0.911)0px 20px 30px -9px ;
 }
+
+span{
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   color:  rgba(25, 228, 235, 0.911);
+}
+
+.grapper{
+    max-width: 1700px;
+    margin: 100px 80px;
+    background-image: linear-gradient( 26deg, rgba(28, 150, 129, 0.582), rgba(0, 0, 0, 0.801) );
+    border: solid blue;
+    border-radius: 30px;
+    box-shadow: rgba(25, 228, 235, 0.911)0px 20px 30px -10px;
+}
+
+@media(min-width: 800px){
+   
+    .grapper{
+    margin: 110px 600px;
+    }
+    p{
+        font-size: 2.1em;
+        
+    }
+    #btn{
+        font-size: 1.5em;
+        padding: 10px 30px;
+    }
+
+    input{
+    padding: 13px;
+    margin: 19px;
+    font-size: 1em;
+        
+    }
+    span{
+        font-size: 1em;
+    }
+
+   
+
+}
+
